@@ -1,14 +1,17 @@
-<header>
+<header id="header">
   <div class="logo"></div>
 
   <nav>
-    <a href="">About Me</a>
-    <a href="">Work</a>
-    <a href="">Clients</a>
-    <a href="">Contact</a>
+    {% for item in site.data.portfolio.menu %}
+      <a href="{{item.url}}">{{item.name}}</a>
+    {% endfor %}
+    <!-- <a href="#about-me">About Me</a>
+    <a href="#me">Work</a>
+    <a href="#clients">Clients</a>
+    <a href="#contact">Contact</a> -->
   </nav>
 
-  <h1><span>Irving Barajas</span></h1>
-  <p class="kicker">Thinker // Designer // Photographer</p>
+  <h1><span>{{ site.title }}</span></h1>
+  <p class="kicker">{{ site.description }}</p>
 
 </header>

@@ -1,10 +1,38 @@
 footer
-  height: 150px
   background: url(../img/yosemite.jpg) center center
   background-size: cover
 
   .lockup
-    margin: 30px
-    +size(50px)
-    background: #999
-    float: left
+    padding: 50px 30px
+    +clearfix
+
+    /* When we use a logo. */
+    // .logo
+    //   +size(50px)
+    //   float: left
+    //   margin-right: 30px
+    //   background-color: rgba(0,0,0,0.4)
+
+    .content-wrap
+      text-align: center
+
+      a
+        color: rgba(232, 232, 232, 0.9)
+        @extend %small-bold
+        margin: 0
+        margin-right: 30
+        text-align: center
+        background-color: rgba(200, 200, 200, 0.6)
+        display: inline-block
+
+        &:hover
+          color: rgba(0,0,0,1)
+
+    .copyright
+      text-transform: uppercase
+      font-size: 12px
+      background-color: rgba(200, 200, 200, 0.6)
+      margin: 0
+      width: 25%
+      margin-left: auto
+      margin-right: auto
