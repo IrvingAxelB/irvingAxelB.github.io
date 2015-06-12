@@ -438,3 +438,24 @@ footer {
       width: 220px; } }
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
   background: #e5eaee; }
+
+.alt-section {
+  background-color: #e5eaee; }
+
+.thumb-container {
+  max-width: 960px;
+  margin: 0px auto;
+  padding-bottom: 100px; }
+  .thumb-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .thumb-container .thumb-unit {
+    width: 25%;
+    height: 150px;
+    display: block;
+    float: left;
+    background-image: url(/assets/img/yosemite.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
