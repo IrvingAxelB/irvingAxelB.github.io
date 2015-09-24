@@ -42,6 +42,9 @@ seo:
 
 #google-analytics-ua: UA-XXXXXX-X
 
+
+
+
 #-------------------------------
 
 # About Section
@@ -59,6 +62,22 @@ skills:
 - {name: Learning, value: '9'}
 - {name: Teaching, value: '8'}
 - {name: Planning, value: '8'}
-- {name: Visual Design, value: '4'}
-- {name: UX Design, value: '3'}
-- {name: Programming, value: '3'}
+# - {name: Visual Design, value: '4'}
+# - {name: UX Design, value: '3'}
+- {name: Programming, value: '7'}
+
+
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Adventure Game, folder: 'proj-1'}
+- {name: Click Game, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
+- {name: Typo International, folder: 'proj-1'}
