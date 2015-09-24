@@ -10,7 +10,7 @@ angular.module('irvingchat', [
       url: "/signin",
       views: {
         "": {
-            templateUrl: "./templates/signin.html"
+            templateUrl: "./client/templates/signin.html"
         }
       }
     })
@@ -18,7 +18,7 @@ angular.module('irvingchat', [
       url: "/signup",
       views: {
         "": {
-            templateUrl: "./templates/signup.html"
+            templateUrl: "./client/templates/signup.html"
         }
       }
     })
@@ -26,7 +26,7 @@ angular.module('irvingchat', [
       url: "/chat",
       views: {
         "": {
-            templateUrl: "./templates/chat.html"
+            templateUrl: "./client/templates/chat.html"
         }
       }
       // resolve: {
@@ -39,7 +39,7 @@ angular.module('irvingchat', [
       url: "/admin",
       views: {
         "": {
-            templateUrl: "./templates/admin.html"
+            templateUrl: "./client/templates/admin.html"
         }
       }
     })
