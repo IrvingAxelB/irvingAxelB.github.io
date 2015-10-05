@@ -59,8 +59,8 @@ blurb: >
 skills:
 - {name: Communication, value: '8'}
 - {name: Organization, value: '9'}
-- {name: Learning, value: '9'}
-- {name: Teaching, value: '8'}
+- {name: Learning, value: '1'}
+- {name: Teaching, value: '1w'}
 - {name: Planning, value: '8'}
 # - {name: Visual Design, value: '4'}
 # - {name: UX Design, value: '3'}
