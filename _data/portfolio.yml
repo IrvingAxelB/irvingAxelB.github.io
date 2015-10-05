@@ -19,7 +19,7 @@ description: Thinker // Designer // Photographer
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Blog, url: 'https://medium.com/@irvingaxelb'}
 - {name: Contact, url: '#contact'}
 
 # SEO Section
@@ -68,11 +68,11 @@ skills:
 # Work Section
 
 projects:
-- {name: Adventure Game, folder: 'proj-1'}
-- {name: Click Game, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
-- {name: Typo International, folder: 'proj-1'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
+- {name: Coming soon, folder: 'proj-2'}
